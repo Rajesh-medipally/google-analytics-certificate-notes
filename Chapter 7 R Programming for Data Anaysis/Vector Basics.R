@@ -24,3 +24,10 @@ vec <- c("hi","there","this ","is","peter","griffen")
 [1] FALSE
 > is.logical(vec)
 [1] FALSE
+> # naming vector
+  > x <- c("a",5,TRUE)
+> names(x) <- ("v1","v2","v3")
+> names(x) <- c("v1","v2","v3")
+> x
+v1     v2     v3 
+"a"    "5" "TRUE" 
