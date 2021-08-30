@@ -27,3 +27,6 @@ employee_long %>%
   select(names,Occupation) %>% 
   na.omit() 
   
+head(penguins)
+d <- na.omit(penguins)
+mean(d$bill_length_mm)
